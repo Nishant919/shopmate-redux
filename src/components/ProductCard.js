@@ -20,7 +20,7 @@ export const ProductCard = ({ product }) => {
       setInCartItem(false);
     }
 
-  }, [products])
+  }, [products, product.id])
 
   const dispatch = useDispatch();
   return (
