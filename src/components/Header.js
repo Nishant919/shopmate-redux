@@ -11,7 +11,7 @@ export const Header = () => {
     <header>
       <Link to="/" className="logo">
         <img src={Logo} alt="Shopmate Logo" />
-        <span>Redux Cart</span>
+        <span>Redux Cart Prac</span>
       </Link>
       <nav className="navigation">
         <NavLink to="/" className="link" end>Home</NavLink>
